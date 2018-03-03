@@ -1,0 +1,21 @@
+{
+  "name": "node-microservice-timestamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest",
+    "watch": "jest --watchAll"
+  },
+  "author": "Sebastian Brieschenk",
+  "license": "ICS",
+  "dependencies": {
+    "express": "^4.16.2",
+    "moment": "^2.20.1"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2",
+    "supertest": "^3.0.0"
+  }
+}
